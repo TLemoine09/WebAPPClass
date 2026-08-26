@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(180, 160, 160);
+}
+P{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+header{
+    color: blue ;
+}
+header{
+    background-color: lightblue;
+}
