@@ -1,0 +1,73 @@
+body{
+    background-color: lightslategray;
+}
+/* what if you want to style multiple elements the same way? */
+/* soultion classes and ids */
+/* classes are used to style multiple elements the same way, ID's are used once, one and done. */
+
+/*classes start with a .classname*/
+
+.highlight{
+    color: red;
+    font-weight: bold;
+}
+
+
+/* ID's start with a #idname */ /* Ids are only used once*/
+
+
+#main-header{
+    text-align: center;
+    font-size: 32px;
+}
+/* Everyhting in CSS is a box. each box has layers:
+1. Content- text, image, whatever is inside the box
+2. Padding- space between the content and the border
+3. Border- Line around the element
+4. Margin- space between the border and other elements
+|<---Margin--->|<---Border--->|<---Padding--->|<---Content--->|<--->|<---Padding--->|<---Border--->|<---Margin--->|
+Use margin to seperate elements apart, and padding to give breathiing room inside the element.
+
+*/
+p{
+    margin: 40px;/*space outside*/
+    padding:10px;/*spaceinside*/
+    border:2px dotted blue;/*visiable outline*/
+    color:white;
+    font-size: 20px;
+
+}
+
+
+/*Links can change style depending on their state.*/
+/*a:link>>unvisted link
+
+a:visited>>visited link
+
+a:hover>>when mouse is over the link
+
+a:active>>when the link is clicked
+
+*/
+
+a:link{
+    color:navy;
+}
+
+a:visited{
+    color:red
+}
+
+a:hover{
+    color:hotpink;
+    text-decoration:wavy;
+    text-shadow:10px 10px 5px black;
+    font-size: xx-large;
+}
+
+a:active{
+    color:plum;
+}
+
+
+
