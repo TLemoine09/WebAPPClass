@@ -4,11 +4,11 @@ if (cats >= 3) {
 } 
 
 let dogs = Number(prompt("How many dogs do you have?"));
-if (dogs >= 3) {
+if (dogs >= 2) {
     console.log("You have a lot of dogs!");
 }
 
-if (cats >= 3 && dogs >= 3) {
+if (cats >= 3 && dogs >= 2) {
     console.log("You have a lot of pets!");
 }
 
@@ -16,7 +16,7 @@ if (cats >= 3 && dogs >= 3) {
     console.log(i);
  }
 
- let numbers = prompt("Enter a number:");
+ let numbers = Number(prompt("Enter a number:"));
 for (let i = 0; i < numbers; i++) {
     console.log(i);
 }

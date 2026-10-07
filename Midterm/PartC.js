@@ -41,7 +41,7 @@ let score = Number(prompt("Score?")); // Convert input to number for proper comp
 if (score >= 90) { // Remove quotes to compare as numbers
     console.log("A");
 } else if (score >= 80) {
-    console.log("B");
+    console.log("B");3
 } else {
     console.log("Keep going");
 }
