@@ -29,3 +29,5 @@ function calculateArea(length, width) { // Calculates the area of a square, it c
 let area = calculateArea(50, 100);
 console.log("The area is: " + area);
 calculateArea(50, 100);
+
+// Will it blow up?
