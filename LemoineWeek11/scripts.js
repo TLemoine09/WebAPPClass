@@ -13,7 +13,7 @@ textInput.addEventListener("input", (event) => {
 //This is for the hover text event on the webpage
 const hoverText = document.getElementById("hoverText");
 hoverText.addEventListener("mouseover", () => {
- hoverText.style.color = "Purple";
+ hoverText.style.color = "Red";
 });
 hoverText.addEventListener("mouseout", () => {
  hoverText.style.color = "black";
