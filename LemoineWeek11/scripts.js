@@ -10,7 +10,7 @@ textInput.addEventListener("input", (event) => {
  console.log("You typed: " + event.target.value);
 });
 
-//This is for the hover text event on the webpage
+//This is for the hover text event on the webpage. The text changes color when hovered over.
 const hoverText = document.getElementById("hoverText");
 hoverText.addEventListener("mouseover", () => {
  hoverText.style.color = "Red";
@@ -20,7 +20,7 @@ hoverText.addEventListener("mouseout", () => {
 });
 
 
-//This is for the double-click button event on the webpage
+//This is for the double-click button event on the webpage. I liked the idea of having to double click.
 const dblBtn = document.getElementById("dblBtn");
 dblBtn.addEventListener("dblclick", () => {
  alert("You double-clicked the button!");
