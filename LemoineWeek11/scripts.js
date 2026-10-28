@@ -37,3 +37,12 @@ const textOutput = document.getElementById("output");
 textInput.addEventListener("input", (event) => {
  textOutput.textContent = "You typed: " + event.target.value;
 });
+
+const toggleDarkModeBtn = document.getElementById("toggle-dark-mode");
+toggleDarkModeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+const toggleHighlightModeBtn = document.getElementById("toggle-highlight-mode");
+toggleHighlightModeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("highlight-mode");
+});

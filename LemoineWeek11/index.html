@@ -3,6 +3,18 @@
 <head>
  <meta charset="UTF-8" />
  <title>DOM Events Practice</title>
+  <style>
+        .highlight-mode {
+            background-color: navy;
+            color: white;
+            transition: background-color 0.5s ease;
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+    </style>
 </head>
 <body>
  <h1>My DOM Events Page</h1>
@@ -11,6 +23,10 @@
  <p id="hoverText">Hover over this text!</p>
  <button id="dblBtn">Double-Click Me</button>
  <p id="output"></p>
+ <div>
+     <button id="toggle-dark-mode">Toggle Dark Mode</button>
+     <button id="toggle-highlight-mode">Toggle Highlight Mode</button>
+ </div>
  <script src="scripts.js"></script>
 </body>
 </html> 
