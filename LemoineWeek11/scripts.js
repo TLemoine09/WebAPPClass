@@ -38,6 +38,8 @@ textInput.addEventListener("input", (event) => {
  textOutput.textContent = "You typed: " + event.target.value;
 });
 
+//The last two are just to highlight, and toggle dark mode.
+
 const toggleDarkModeBtn = document.getElementById("toggle-dark-mode");
 toggleDarkModeBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
