@@ -48,3 +48,21 @@ const toggleHighlightModeBtn = document.getElementById("toggle-highlight-mode");
 toggleHighlightModeBtn.addEventListener("click", () => {
     document.body.classList.toggle("highlight-mode");
 });
+
+//This is for the change color button event on the webpage. Clicking the button changes the color of the text.
+const colorBtn = document.getElementById("colorBtn");
+const colorText = document.getElementById("colorText");
+colorBtn.addEventListener("click", () => {
+    colorText.style.color = colorText.style.color === "black" ? "blue" : "black";
+});
+
+//This is for the explode button event on the webpage. Clicking the button makes the text explode.
+const explodeBtn = document.getElementById("explodeBtn");
+const explodeText = document.getElementById("explodeText");
+explodeBtn.addEventListener("click", () => {
+    explodeText.style.transform = "scale(2)";
+    setTimeout(() => {
+        explodeText.style.transform = "scale(1)";
+    }, 500);
+});
+
